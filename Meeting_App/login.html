@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body>
-    
+    <header class="head"> Meeting <span class="head__in">in</span> </header>
+    <main class="login">
+        <form action="calender" class="login__form">
+            <h1>Sign in</h1>
+            <p class="login__para">Stay updated on your MeetingApp</p>
+            <section >
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email" class="login__email">
+            </section>
+            <section >
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password" class="login__password">
+            </section>
+            <a href="abc" class="login__forgot">Forgot password?</a>
+            <button class="btn">Sign in</button>
+            <div class="login__separator"><hr class="login__orlinel"> <span class="login__or">or</span><hr class="login__orliner"></div>
+            <button class="btn btn--google" type="button"><i class="fa-brands fa-google"></i> Sign in with Google</button>
+            <button class="btn btn--apple" type="button"><i class="bi bi-apple"></i>Sign in with Apple</button>
+            <!-- <div class="login__join">New to MeetingApp? <a href="Join now">Join now</a></div> -->
+        </form>
+    </main>
+    <div class="login__join">New to MeetingApp? <a href="Join now">Join now</a></div>
+    <footer class="bottom">
+        <a href="">LinkedIn© 2022</a>
+        <a href="">User Agreement</a>
+        <a href="">Privacy Policy</a>
+        <a href="">Community Guidelines</a>
+        <a href="">Cookie Policy</a>
+        <a href="">Copyright Policy</a>
+        <a href="">Send Feedback</a>
+        <a href="">Language</a>
+        <a href=""></a>
+    </footer>
 </body>
 </html>
+
+
+

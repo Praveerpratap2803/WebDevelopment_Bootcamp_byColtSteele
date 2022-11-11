@@ -92,13 +92,33 @@
 .bottom{
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 20px;
+    width: auto;
 }
 .bottom>a{
-
+    font-size: 12px;
     color: grey;
     text-decoration: none;
+    word-wrap: normal;
 }
+.bottom>a:hover{
 
+    text-decoration: underline;
+}
+@media screen and (max-width: 746px) {
+    .bottom>a{
+        font-size: 10px;
+
+    }
+}
+@media screen and (max-width: 630px) {
+    .bottom>a{
+        font-size: 7px;
+
+    }
+}
 
 
 
